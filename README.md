@@ -28,7 +28,7 @@ mkdir val2014_annotations/
 ```
 git clone this repo to your computer and use the coco2pascal.py script to convert COCO annotation format to Pascal VOC format 
 ```
-git clone https://github.com/shangranq/Yolov2-Pytorch.git
+git clone https://github.com/angliu-bu/Yolov2-Pytorch.git
 cd Yolov2_Pytorch/
 python coco2pascal.py create_annotations COCO/ train COCO/train2014_annotations/ 
 python coco2pascal.py create_annotations COCO/ val COCO/val2014_annotations/  
